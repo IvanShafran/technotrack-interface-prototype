@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_marginLeft="10dp"
+              android:orientation="vertical"
+              android:id="@+id/movie_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:id="@+id/movie_view_image"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/movie_view_price"
+            android:layout_gravity="left|top"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movie_view_title"
+        android:text="title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

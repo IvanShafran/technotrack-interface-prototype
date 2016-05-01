@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="Главная страница"/>
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="Login"/>
+    </group>
+
+    <item android:title="Категории">
+        <menu>
+            <item
+                android:id="@+id/nav_bought"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="Купленные"/>
+            <item
+                android:id="@+id/nav_later"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Смотреть позже"/>
+            <item
+                android:id="@+id/nav_popular"
+                android:icon="@drawable/ic_whatshot_black_24dp"
+                android:title="Популярное"/>
+            <item
+                android:id="@+id/nav_drama"
+                android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"
+                android:title="Драма"/>
+            <item
+                android:id="@+id/nav_comedy"
+                android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+                android:title="Комедия"/>
+        </menu>
+    </item>
+
+</menu>
